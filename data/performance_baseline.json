@@ -1,0 +1,6 @@
+[
+  {"timestamp": "2026-03-12T10:00:00Z", "process": "mcafee_agent", "mem_rss_mb": 45.2},
+  {"timestamp": "2026-03-12T10:00:05Z", "process": "mcafee_agent", "mem_rss_mb": 46.1},
+  {"timestamp": "2026-03-12T10:00:10Z", "process": "mcafee_agent", "mem_rss_mb": 45.8},
+  {"timestamp": "2026-03-12T10:00:15Z", "process": "mcafee_agent", "mem_rss_mb": 46.0}
+]

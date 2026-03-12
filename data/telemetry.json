@@ -1,0 +1,72 @@
+[
+  {
+    "event_id": "evt_001",
+    "timestamp": "2026-03-12T08:00:00Z",
+    "agent_metadata": { "version": "5.10.2", "os_type": "Windows_11", "device_uuid": "UUID-A1" },
+    "threat_details": { "severity": "CRITICAL", "confidence_score": 0.99, "name": "Ransom.Locky" },
+    "action": { "type": "QUARANTINE", "status": "SUCCESS" }
+  },
+  {
+    "event_id": "evt_002",
+    "timestamp": "2026-03-12T08:05:00Z",
+    "agent_metadata": { "version": "5.10.2", "os_type": "macOS_14", "device_uuid": "UUID-B2" },
+    "threat_details": { "severity": "LOW", "confidence_score": 0.40, "name": "Adware.Gen" },
+    "action": { "type": "IGNORE", "status": "SUCCESS" }
+  },
+  {
+    "event_id": "evt_003",
+    "timestamp": "2026-03-12T08:10:00Z",
+    "agent_metadata": { "version": "5.10.1", "os_type": "Windows_10", "device_uuid": "UUID-A1" },
+    "threat_details": { "severity": "CRITICAL", "confidence_score": 0.97, "name": "Trojan.Agent" },
+    "action": { "type": "QUARANTINE", "status": "FAILED" } 
+  },
+  {
+    "event_id": "evt_004",
+    "timestamp": "2026-03-12T08:15:00Z",
+    "agent_metadata": { "version": "5.10.2", "os_type": "Windows_11", "device_uuid": "UUID-C3" },
+    "threat_details": { "severity": "MEDIUM", "confidence_score": 0.75, "name": "PUP.Optional" },
+    "action": { "type": "CLEAN", "status": "SUCCESS" }
+  },
+  {
+    "event_id": "evt_005",
+    "timestamp": "2026-03-12T08:20:00Z",
+    "agent_metadata": { "version": "5.10.2", "os_type": "Linux_Ubuntu", "device_uuid": "UUID-D4" },
+    "threat_details": { "severity": "CRITICAL", "confidence_score": 0.98, "name": "Exploit.CVE-2024" },
+    "action": { "type": "BLOCK", "status": "SUCCESS" }
+  },
+  {
+    "event_id": "evt_006",
+    "timestamp": "2026-03-12T08:25:00Z",
+    "agent_metadata": { "version": "5.0.0", "os_type": "Windows_11", "device_uuid": "UUID-E5" },
+    "threat_details": null, 
+    "action": { "type": "SCAN_ONLY", "status": "SUCCESS" }
+  },
+  {
+    "event_id": "evt_007",
+    "timestamp": "2026-03-12T08:30:00Z",
+    "agent_metadata": { "version": "5.10.2", "os_type": "macOS_14", "device_uuid": "UUID-B2" },
+    "threat_details": { "severity": "CRITICAL", "confidence_score": 0.96, "name": "Spyware.Stealer" },
+    "action": { "type": "QUARANTINE", "status": "SUCCESS" }
+  },
+  {
+    "event_id": "evt_008",
+    "timestamp": "2026-03-12T08:35:00Z",
+    "agent_metadata": { "version": "5.10.2", "os_type": "Windows_11", "device_uuid": "UUID-F6" },
+    "threat_details": { "severity": "CRITICAL", "confidence_score": 0.30, "name": "Suspicious.Behavior" },
+    "action": { "type": "QUARANTINE", "status": "SUCCESS" }
+  },
+  {
+    "event_id": "evt_009",
+    "timestamp": "2026-03-12T08:40:00Z",
+    "agent_metadata": { "version": "5.10.3", "os_type": "Windows_11", "device_uuid": "UUID-G7" },
+    "threat_details": { "severity": "CRITICAL", "confidence_score": 0.99, "name": "Backdoor.Rootkit" },
+    "action": { "type": "BLOCK", "status": "FAILED" }
+  },
+  {
+    "event_id": "evt_010",
+    "timestamp": "2026-03-12T08:45:00Z",
+    "agent_metadata": { "version": "5.10.2", "os_type": "Windows_10", "device_uuid": "UUID-H8" },
+    "threat_details": { "severity": "INFORMATIONAL", "confidence_score": 1.0, "name": "System.Update" },
+    "action": { "type": "NONE", "status": "SUCCESS" }
+  }
+]
